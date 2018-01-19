@@ -1,0 +1,6 @@
+#credentials of Admin firoz/qwerty@123
+
+#move to project by this command
+  (env_mysite) C:\Users\...\mysite> python manage.py shell
+#commands
+ from mysite.forms import ContactForm
