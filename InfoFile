@@ -1,6 +1,45 @@
+ #django commands
+Steps to create project using Django project
+
+#0) download and install pycharm or sublime
+
+#1)How to create django project projects
+create a project in pycharm and  alt+f12 to get terminal in pycharm
+
+#2)then install pip3
+sudo apt-get install python3-pip
+
+#3 create virtual env
+ virtualenv -p python3 env
+
+#4 now activate virtual env
+  source env/bin/activate
+
+#5 now select this virtual environment as below
+setting ->project interpreter ->select the virtaul env
+
+#6 now start installing the django framwork in this environment
+pip install django
+
+#7 install myapplication
+django-admin startproject mymodelapp
+
+#8 To create new application
+python manage.py startapp mypolls
+
+#9 run server from terminal
+python manage.py runserver
+
+#All the commands at once
+
+#How to create user and apssward for admin
+python manage.py createsuperuser
+
 #credentials of Admin firoz/qwerty@123
 
 #move to project by this command
   (env_mysite) C:\Users\...\mysite> python manage.py shell
 #commands
  from mysite.forms import ContactForm
+
+https://hangouts.google.com/group/wgdxyssCUAJP3Qkt1
